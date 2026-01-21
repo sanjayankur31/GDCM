@@ -148,7 +148,7 @@ static std::string getInfoString(Dict *infoDict, const char *key, UnicodeMap *uM
       isUnicode = false;
       i = 0;
       }
-    while (i < obj.getString()->getLength())
+    while (i < obj.getString()->size())
       {
       if (isUnicode)
         {
